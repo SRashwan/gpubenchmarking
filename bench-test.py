@@ -1,3 +1,8 @@
+#This script:
+#Detects your NVIDIA GPU.
+#Calls Blender in background mode to render your scene using Cycles GPU.
+#Samples GPU temperature, power, utilization, and memory every second via NVML.
+#Saves a CSV with real readings and produces charts from those readings.
 import os
 import sys
 import time
